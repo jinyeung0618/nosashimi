@@ -30,10 +30,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		66BAFDE82DDF45EA009EC745 /* Exceptions for "nosashimi" folder in "nosashimi" target */ = {
+		66BAFE102DDF4FA8009EC745 /* Exceptions for "nosashimi" folder in "nosashimi" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 66BAFDBF2DDF45E9009EC745 /* nosashimi */;
 		};
@@ -43,7 +43,7 @@
 		66BAFDC22DDF45E9009EC745 /* nosashimi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				66BAFDE82DDF45EA009EC745 /* Exceptions for "nosashimi" folder in "nosashimi" target */,
+				66BAFE102DDF4FA8009EC745 /* Exceptions for "nosashimi" folder in "nosashimi" target */,
 			);
 			path = nosashimi;
 			sourceTree = "<group>";
@@ -88,10 +88,10 @@
 		66BAFDB72DDF45E9009EC745 = {
 			isa = PBXGroup;
 			children = (
-				66BAFDC22DDF45E9009EC745 /* nosashimi */,
 				66BAFDD92DDF45EA009EC745 /* nosashimiTests */,
 				66BAFDE32DDF45EA009EC745 /* nosashimiUITests */,
 				66BAFDC12DDF45E9009EC745 /* Products */,
+				66BAFDC22DDF45E9009EC745 /* nosashimi */,
 			);
 			sourceTree = "<group>";
 		};
@@ -290,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = nosashimi/Info.plist;
+				INFOPLIST_FILE = nosashimi/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = nosashimi/Info.plist;
+				INFOPLIST_FILE = nosashimi/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
